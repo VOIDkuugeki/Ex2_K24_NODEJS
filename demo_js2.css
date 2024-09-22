@@ -1,0 +1,54 @@
+body {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+
+    label {
+        padding: 5px 0 5px 0;
+        font-weight: bold;
+    }
+
+    input {
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0 10px 0;
+
+    button {
+        color: red;
+        border-radius: 0;
+        font-size: large;
+    }
+}
+
+.proTable {
+    background-color: aqua;
+    margin-top: 20px;
+
+    thead th {
+        border: 3px groove white;
+        text-align: center;
+        width: fit-content;
+    }
+
+    tr td {
+        text-align: center;
+        width: fit-content;
+    }
+}
+
+#message {
+    color: darkred;
+    font-weight: bold;
+}

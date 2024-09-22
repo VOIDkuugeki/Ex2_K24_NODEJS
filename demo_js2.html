@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo_js2.css">
+    <script src="demo_js2.js"></script>
+</head>
+<body>
+
+    <div class="content">
+        <label for="nameCus">Fullname_Customer</label>
+        <input type="text" id="nameCus" name="nameCus">
+        <label for="nameCus">Id_Pro</label>
+        <input type="text" id="idPro" name="idPro">
+        <label for="namePro">Name_Pro</label>
+        <input type="text" id="namePro" name="namePro">
+        <label for="quantPro">Quantity_Pro</label>
+        <input type="text" id="quantPro" name="quantPro">
+        <label for="pricePro">Price_Pro</label>
+        <input type="text" id="pricePro" name="pricePro">
+    </div>
+
+    <div id="message" class="message"></div>
+
+    <div class="buttonGroup">
+        <button type="button" onclick="save()">Save</button>
+        <button type="button" onclick="show()">Show</button>
+        <button type="button" onclick="reset()">Reset</button>
+    </div>
+
+    <table class="proTable" hidden>
+        <thead>
+            <th>Auto_Increment</th>
+            <th>Fullname_Customer</th>
+            <th>Id_Pro</th>
+            <th>Name_Pro</th>
+            <th>Quantity_Pro</th>
+            <th>Price_Pro</th>
+            <th>Discount</th>
+            <th>Amount</th>
+            <th>Total</th>
+        </thead>
+        <tr>
+
+        </tr>
+    </table>
+
+    <script src="demo_js2.js"></script>
+</body>
+</html>
